@@ -11,8 +11,8 @@ const CertificationCard = ({
 }) => {
   return (
     <div className={`card bg-zinc-400
-     hover:bg-zinc-400/70 active:bg-zinc-200/70 shadow-lg hover:shadow-xl flex items-center gap-2 ring-1 ring-inset ring-zinc-50/10 rounded-2xl p-2 hover:bg-zinc-400 transition-colors group ${classes}`}>
-        <figure className='bg-zinc-600/50 rounded-lg overflow-hidden w-10 h-10 p-2 group-hover:bg-zinc-600 transition-colors'>
+     hover:bg-zinc-400/70 active:bg-zinc-200/70 shadow-lg hover:shadow-xl flex items-center gap-2 ring-1 ring-inset ring-zinc-50/10 rounded-none p-2 hover:bg-zinc-400 transition-colors group ${classes}`}>
+        <figure className='rounded-none overflow-hidden w-10 h-10 p-2 group-hover:bg-zinc-600 transition-colors'>
             <a href={link}>
                 <img
                 src={imgSrc}

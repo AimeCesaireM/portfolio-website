@@ -8,13 +8,13 @@ import React from "react";
 // CourseCard component
 const CourseCard = ({ name, link, icon, inProgress }) => {
   return (
-    <div className=" card bg-zinc-400 hover:bg-zinc-400/70 p-2 rounded-2xl shadow-lg mb-4 ring-1 ring-inset ring-zinc-50/10">
+    <div className=" card bg-zinc-400 hover:bg-zinc-400/70 p-2 rounded-none shadow-lg mb-4 ring-1 ring-inset ring-zinc-50/10">
       <h3 className="text-xl font-bold flex items-center gap-2">
         {icon} {name}
 
         {inProgress && (
-          <div className="relative w-2 h-2 rounded-full bg-emerald-400 ml-1">
-            <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
+          <div className="relative w-2 h-2 rounded-none bg-emerald-400 ml-1">
+            <span className="absolute inset-0 rounded-none bg-emerald-400 animate-ping"></span>
           </div>
         )}
       </h3>

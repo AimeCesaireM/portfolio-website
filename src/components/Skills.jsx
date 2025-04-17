@@ -12,7 +12,7 @@ const skillItems = [
   {
       imgSrc: "./images/python.png",
       title: "Python",
-      desc: "AI and ML Development",
+      desc: "AI and Backend",
       link: "https://www.python.org/"
   },
   {
@@ -22,10 +22,11 @@ const skillItems = [
       link: "https://www.java.com/en/"
   },
   {
-      imgSrc: "./images/typescript.png",
-      title: "TypeScript",
-      desc: "Web Development",
-      link: "https://www.typescriptlang.org/"
+    imgSrc: "./images/hugging-face.svg",
+    title: "Hugging Face",
+    desc: "NLP",
+    link: "https://huggingface.co/"
+
   },
   {
     imgSrc: "./images/flutter.png",
@@ -36,7 +37,7 @@ const skillItems = [
   {
     imgSrc: "./images/solidity.svg",
     title: "Solidity",
-    desc: "Smart Contract Development",
+    desc: "Blockchain development",
     link: "https://docs.soliditylang.org/"
   },
   {
@@ -70,10 +71,22 @@ const skillItems = [
       link: "https://www.mysql.com/"
   },
   {
+    imgSrc: "./images/postgresql.svg",
+    title: "PostgreSQL",
+    desc: "Database",
+    link: "https://www.postgresql.org/" ,
+  },
+  {
       imgSrc: "./images/azure.png",
       title: "Azure",
       desc: "Cloud Computing",
       link: "https://azure.microsoft.com/"
+  },
+  {
+    imgSrc: "./images/aws.webp",
+    title: "AWS",
+    desc: "Cloud Computing",
+    link: "https://aws.amazon.com/",
   }
 ]
 

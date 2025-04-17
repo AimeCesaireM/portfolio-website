@@ -94,12 +94,6 @@ const Courses = () => {
       inProgress: true,
     },
     {
-      name: "Google Cybersecurity Professional Certificate ",
-      link: "https://www.coursera.org/professional-certificates/google-cybersecurity/",
-      icon: "🛡️",
-      inProgress: true,
-    },
-    {
       name: "AWS DevOps Specialization",
       link: "https://www.coursera.org/specializations/aws-devops",
       icon: "☁️",

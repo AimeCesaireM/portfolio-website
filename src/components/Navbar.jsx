@@ -56,7 +56,6 @@ const Navbar = ({ navOpen, theme, toggleTheme }) => {
             label: "Skills",
             link: '#skills',
             className: "nav-link",
-
         },
         {
             label: "Projects",

@@ -10,7 +10,7 @@ const ProjectCard = ({ theme, title, tags, link, website, classes }) => {
   return (
     <div
       className={
-        `card relative p-5 rounded-3xl  bg-zinc-400
+        `card relative p-5 rounded-none  bg-zinc-400
      hover:bg-zinc-400/70 active:bg-zinc-200/70 shadow-lg hover:shadow-xl 
      transition-all duration-300 ring-1 ring-inset ring-zinc-50/10 ` + classes
       }
@@ -37,7 +37,7 @@ const ProjectCard = ({ theme, title, tags, link, website, classes }) => {
             {tags.map((label, key) => (
               <span
                 key={key}
-                className="px-3 py-1 text-sm bg-zinc-50/5 rounded-full border border-zinc-600"
+                className="px-3 py-1 text-sm bg-zinc-50/5 rounded-none border border-zinc-600"
               >
                 {label}
               </span>

@@ -8,6 +8,12 @@ const certificationItems = [
       title: "Microsoft Azure Fundamentals",
       desc: "Cloud Computing",
       link: "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/"
+  },
+  {
+    imgSrc: "./images/google-cybersecurity.png",
+    title: "Google Cybersecurity Profesisonal Certificate",
+    desc: "Cybersecurity",
+    link: "https://www.coursera.org/professional-certificates/google-cybersecurity"
   }
 ];
 

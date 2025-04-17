@@ -6,17 +6,15 @@
 
 
 // Text
-const welcome_paragraph = `Hi, I’m Aime Cesaire— a dedicated problem solver with a deep fascination
-                        for how systems are built, optimized, and pushed to their limits.
-                        I’m a full-stack developer with experience that spans artificial intelligence, machine learning,
-                        penetration testing, and cryptography. My background also extends into computer networks,
+const welcome_paragraph = `Hi, I’m Aime Cesaire. I love building and studying systems and networks, whether they are computational
+                        or organizational. My experience spans artificial intelligence, security, full stack development,
                         IT infrastructure, and cloud computing. Whether I'm developing algorithms, pen-testing systems,
                         or creating data-driven applications, I’m motivated by the drive to learn, build, and innovate.`
 
 const aboutItems = [
     {
         label: "Projects",
-        number: 12
+        number: 15
     },
     {
         label:"Coding Languages",
@@ -24,7 +22,7 @@ const aboutItems = [
     },
     {
         label: "Years in tech",
-        number: "7",
+        number: "8",
     }
     
 ]
@@ -34,7 +32,7 @@ const About = () => {
    <section id="about" className="section">
 
         <div className="container">
-            <div className="p-7 rounded-2xl md:p-12 reveal-up">
+            <div className="p-7 rounded-none md:p-12 reveal-up">
 
                 <p className="mb-4 md:mb-8 md:text-xl md:max-w-[60ch] reveal-up">
                     {welcome_paragraph}

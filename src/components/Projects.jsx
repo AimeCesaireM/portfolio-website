@@ -15,21 +15,23 @@ const works = [
 
   },
   {
+    title: "Madame Saville - A market intelligence tool",
+    tags: ["Linear regression", "Data Science", "Python", "Flask"],
+    link: "https://github.com/AimeCesaireM/madame_saville",
+    website: ""
+
+  },
+  {
+    title: "Foodback - An LLM-powered food waste management system",
+    tags: ["LLMs", "Express.js", "Hugging Face", "Computer vision"],
+    link: "https://github.com/AimeCesaireM/foodback",
+    website: ""
+  }
+  ,
+  {
     title: "Intelligent Pacman bots",
-    tags: ["Adversarial Search", "Reinforcement Learning", "Python"],
+    tags: ["Adversarial Search", "Q-Learning", "Python"],
     link: "https://github.com/AimeCesaireM/AI-Projects",
-    website: ""
-  },
-  {
-    title: "Soccer Data Analytics",
-    tags: ["Machine Learning", "Data Science", "Regression models", "Python"],
-    link: "https://github.com/AimeCesaireM/PremierLeagueMLProject",
-    website: ""
-  },
-  {
-    title: "Network Infrastructure Simulation",
-    tags: ["Network Protocols", "CRC Error Handling", "Java"],
-    link: "https://github.com/AimeCesaireM/routing",
     website: ""
   },
   {
@@ -39,21 +41,15 @@ const works = [
     website: "https://sourceforge.net/projects/steganography-detector/"
   },
   {
-    title: "Brickbreaker Game in Unity Engine",
-    tags: ["Unity Engine", "C#", "Object Oriented Programming"],
-    link: "https://github.com/AimeCesaireM/Brick-Breaker",
-    website: ""
-  },
-  {
     title: "energive - A statistical attack on the Vigenere cypher",
     tags: ["Cryptanalysis", "Number theory", "Statistical analysis",  "Python"],
     link: "https://github.com/AimeCesaireM/ecc-cryptography",
     website: "https://sourceforge.net/projects/enervige/"
   },
   {
-    title: "Naona- A LAN Video Chat App",
-    tags: ["WebRTC", "Socket.io", "JavaScript"],
-    link: "https://github.com/AimeCesaireM/Naona",
+    title: "Soccer Data Analytics",
+    tags: ["Machine Learning", "Data Science", "Regression models", "Python"],
+    link: "https://github.com/AimeCesaireM/PremierLeagueMLProject",
     website: ""
   },
 ];

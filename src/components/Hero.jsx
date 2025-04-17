@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
         <div>
           <div className="flex items-center gap-2">
-            <figure className="img-box w-10 h-10 rounded-full">
+            <figure className="img-box h-20 rounded-full overflow-hidden">
               <a
                 href="https://www.amherst.edu"
                 target="_blank"
@@ -20,19 +20,19 @@ const Hero = () => {
               >
                 <img
                   src="./images/avatar-1.png"
-                  width={50}
-                  height={50}
+                  width={60}
+                  height={60}
                   alt="Amherst College"
                   className="img-cover"
                 />
               </a>
             </figure>
 
-            <div className="flex items-center gap-1.5 text-sm font-bold tracking-wide">
-              <span className="flex relative w-2 h-2 rounded-full bg-emerald-400">
-                <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
+            <div className="flex items-center gap-1.5 text-md font-bold tracking-wide">
+              <span className="flex relative w-2 h-2 rounded-none bg-emerald-400">
+                <span className="absolute inset-0 rounded-none bg-emerald-400 animate-ping"></span>
               </span>
-              Graduating in May 2025
+              Graduating in 2025
             </div>
           </div>
 
@@ -65,7 +65,7 @@ const Hero = () => {
         <div className="hidden lg:block">
           <figure
             className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25%
-                         via-sky-400/40 to-65% rounded-[60px] overflow-hidden"
+                         via-sky-400/40 to-65% rounded-none overflow-hidden"
           >
             <img
               src="./images/hero-banner.jpg"
