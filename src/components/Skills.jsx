@@ -87,6 +87,12 @@ const skillItems = [
     title: "AWS",
     desc: "Cloud Computing",
     link: "https://aws.amazon.com/",
+  },
+  {
+    title: "Docker",
+    imgSrc: "./images/docker-mark-blue.png",
+    desc: "Containerization",
+    link: "https://www.docker.com/"
   }
 ]
 
