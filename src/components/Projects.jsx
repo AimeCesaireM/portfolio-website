@@ -11,14 +11,14 @@ const works = [
     title: "Mammoth Rumble - A decentralized voting platform",
     tags: ["Solidiy", "Web3", "React", "Bootstrap", "Ethers API" ],
     link: "http://github.com/AimeCesaireM/Decentralized-Voting",
-    website: "http://34.16.36.118/"
+    website: ""
 
   },
   {
     title: "Madame Saville - A market intelligence tool",
     tags: ["Linear regression", "Data Science", "Python", "Flask"],
     link: "https://github.com/AimeCesaireM/madame_saville",
-    website: ""
+    website: "https://www.loom.com/share/709ba366e40d4b27af0e8161769bac28?sid=854c5a84-433b-46a9-83c3-8cd7419f5551"
 
   },
   {

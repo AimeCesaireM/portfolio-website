@@ -28,7 +28,7 @@ const ProjectCard = ({ theme, title, tags, link, website, classes }) => {
                 rel="noopener noreferrer"
                 className="text-sky-700/100 hover:text-blue-500 font-medium transition-colors"
               >
-                Published →
+                Demo →
               </a>
             </p>
           )}
